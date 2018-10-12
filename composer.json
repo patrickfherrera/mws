@@ -1,13 +1,14 @@
 {
-  "name": "patrickfherrera/mws",
+  "name": "brickfox/mws",
   "description": "Amazon Marketplace Web Service libraries",
   "minimum-stability": "dev",
   "license": "Apache-2.0",
   "authors": [{
-    "name": "Amazon.com, Inc."
+    "name": "Amazon.com, Inc.",
+    "homepage": "https://developer.amazonservices.de/"
   }, {
-    "name": "Patrick Herrera",
-    "email": "patrickfherrera@gmail.com"
+    "name": "Nikolas Hermann",
+    "email": "nikolas.hermann@brickfox.de"
   }],
   "include-path": ["src/"],
   "autoload": {
