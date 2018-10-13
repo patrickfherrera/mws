@@ -4,9 +4,9 @@
   "minimum-stability": "dev",
   "license": "Apache-2.0",
   "authors": [{
-    "name": "Amazon.com, Inc.",
+    "name": "Amazon.com, Inc."
   }, {
-    "name": "Patrick Herrera",
+    "name": "Patrick Herrera"
   }],
   "include-path": ["src/"],
   "autoload": {
