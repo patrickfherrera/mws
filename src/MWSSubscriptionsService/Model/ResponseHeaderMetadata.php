@@ -27,9 +27,9 @@ class MWSSubscriptionsService_Model_ResponseHeaderMetadata {
   const QUOTA_RESETS_AT = 'x-mws-quota-resetsOn';
 
   private $metadata = array();
-
-  public function __construct($requestId = null, $responseContext = null, $timestamp = null,
-                              $quotaMax = null, $quotaMax = null, $quotaResetsAt = null) {
+  
+  public function __construct($requestId = null, $responseContext = null, $timestamp = null,$quotaMax = null, $quotaRemaining = null, $quotaResetsAt = null) 
+  {
     $this->metadata[self::REQUEST_ID] = $requestId;
     $this->metadata[self::RESPONSE_CONTEXT] = $responseContext;
     $this->metadata[self::TIMESTAMP] = $timestamp;
