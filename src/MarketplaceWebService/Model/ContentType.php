@@ -42,7 +42,7 @@ class MarketplaceWebService_Model_ContentType extends MarketplaceWebService_Mode
 
     public function getParameters()
     {
-        return !is_null($this->fields['Parameters']['FieldValue']);
+        return $this->fields['Parameters']['FieldValue'];
     }
 
     public function setParameters($parameters)
@@ -53,7 +53,7 @@ class MarketplaceWebService_Model_ContentType extends MarketplaceWebService_Mode
 
     public function isSetParameters()
     {
-        return count($this->fields['Parameters']['FieldValue']) > 0;
+        return !is_null($this->fields['Parameters']['FieldValue']);
     }
 
     public function toString()
