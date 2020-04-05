@@ -42,7 +42,7 @@ class MarketplaceWebService_Model_ContentType extends MarketplaceWebService_Mode
 
     public function getParameters()
     {
-        return $this->fields['Parameters']['FieldValue'];
+        return !is_null($this->fields['Parameters']['FieldValue']);
     }
 
     public function setParameters($parameters)
